@@ -22,10 +22,13 @@ Assurez-vous d'avoir Java installé sur votre machine.
 Clonez ce dépôt sur votre machine locale :
 
 bash
+
 git clone https://github.com/NHDH11/Brief-app-bibliotheque-.git
+
 Accédez au répertoire du projet :
 
 bash
+
 cd Brief-app-bibliotheque
 
 //////////////////////////////////////////////////
@@ -35,6 +38,7 @@ Utilisation :
 //////////////////////////////////////////////////
 
 Compilez le projet en utilisant votre IDE ou en ligne de commande :
+
 javac *.java
 
 Exécutez l'application :
@@ -48,9 +52,13 @@ Structure du Projet :
 //////////////////////////////////////////////////
 
 Book.java : Définition de la classe Book représentant un livre.
+
 Student.java : Définition de la classe Student représentant un étudiant.
+
 Library.java : Définition de la classe Library gérant la bibliothèque.
+
 Menu.java : Définition de la classe Menu gérant l'interface utilisateur en console.
+
 Libraryappsystem.java : Classe principale contenant le point d'entrée de l'application.
 
 /////////////////////////////////////////////////
