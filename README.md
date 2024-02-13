@@ -2,14 +2,21 @@ Gestion de Bibliothèque - Projet Java
 Ce projet Java est une application console permettant de gérer une bibliothèque. Les utilisateurs peuvent ajouter, supprimer et rechercher des livres, ainsi que gérer les emprunts et les retours.
 
 Fonctionnalités
+
 Ajout de livres à la bibliothèque
+
 Suppression de livres de la bibliothèque
+
 Recherche de livres par titre ou auteur
+
 Gestion des emprunts et des retours
+
 Rappels automatiques pour les retours en retard (fonctionnalité bonus)
 
 Installation :
+
 //////////////////////////////////////////////////
+
 Assurez-vous d'avoir Java installé sur votre machine.
 
 Clonez ce dépôt sur votre machine locale :
