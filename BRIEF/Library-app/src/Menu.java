@@ -12,15 +12,18 @@ public class Menu {
     }
 
     public void displayMenu() {
-        System.out.println("Library Management System Menu:");
-        System.out.println("1. Add a book");
-        System.out.println("2. Remove a book");
-        System.out.println("3. Search for a book by title");
-        System.out.println("4. Search for a book by author");
-        System.out.println("5. Send reminders for overdue books");
-        System.out.println("6. Modify the details of a book");
-        System.out.println("7. Borrow a book");
-        System.out.println("8. Exit the application");
+        System.out.println("**********************************************");
+        System.out.println("******  Library Management System Menu: ******");
+        System.out.println("**********************************************");
+        System.out.println("****** 1. Add a book                    ******");
+        System.out.println("****** 2. Remove a book                 ******");
+        System.out.println("****** 3. Search for a book by title    ******");
+        System.out.println("****** 4. Search for a book by author   ******");
+        System.out.println("****** 5. Send reminders/overdue books  ******");
+        System.out.println("****** 6. Modify the details of a book  ******");
+        System.out.println("****** 7. Borrow a book                 ******");
+        System.out.println("****** 8. Exit the application          ******");
+        System.out.println("**********************************************");
         System.out.print("Enter your choice: ");
     }
 
@@ -189,43 +192,6 @@ public class Menu {
             System.out.println("Book details modified successfully!");
         } else {
             System.out.println("Book not found.");
-        }
-    }
-
-    private void addStudent() {
-        System.out.print("Enter student name: ");
-        String name = scanner.nextLine();
-        System.out.print("Enter student address: ");
-        String address = scanner.nextLine();
-        System.out.print("Enter student ID: ");
-        String id = scanner.nextLine();
-
-        Student student = new Student(name, address, id);
-        library.addStudent(student);
-        System.out.println("Student added successfully!");
-    }
-
-    private void removeStudent() {
-        System.out.print("Enter the name of the student you want to remove: ");
-        String name = scanner.nextLine();
-        Student studentToRemove = library.searchStudentByName(name);
-        if (studentToRemove != null) {
-            library.removeStudent(studentToRemove);
-            System.out.println("Student removed successfully!");
-        } else {
-            System.out.println("Student not found.");
-        }
-    }
-
-    private void searchStudent() {
-        System.out.print("Enter the name of the student you want to search for: ");
-        String name = scanner.nextLine();
-        Student foundStudent = library.searchStudentByName(name);
-        if (foundStudent != null) {
-            System.out.println("Student found:");
-            // Afficher les détails de l'étudiant
-        } else {
-            System.out.println("Student not found.");
         }
     }
 
